@@ -1,0 +1,22 @@
+[000:16:172] [0x00002510(9488)] Info(DUT.cpp:151): Pipe out: 6016_00249B000009 
+[000:16:406] [0x00002510(9488)] Warning(DUT.cpp:115): Original ExitCode= 1
+[000:16:422] [0x00002510(9488)] Info(DUT.cpp:151): Pipe out: A device in MTT mode could not be located
+[000:16:422] [0x00002510(9488)] Warning(DUT.cpp:226): Kind: 1 Command fail: dl_mfg_test.exe info flash --dev 6016_00249B000009
+[000:16:437] [0x00002510(9488)] Warning(DUT.cpp:227): ExitCode= 1
+[000:18:890] [0x00002510(9488)] Info(DUT.cpp:151): Pipe out: 6016_DL6950-00.c00.c40 
+[000:18:906] [0x00002510(9488)] Info(DUT.cpp:732): Get id successfuly on 1
+[000:19:234] [0x00002510(9488)] Info(DUT.cpp:151): Pipe out: Firmware Type:      RidgeDoc Release Level:      2 Version:            9.3.57 SVN Version:        88841            Build Date:         2017-09-08 Time:               11:31:44 Backup FW Version:  9.2.38  *** Encrypted configuration *** Name:               DisplayLink_Star Date:               Tue 04 Jul 2017  Min FW Version:     9.2.38  *** UPD Data *** USB Serial No:      00249B000009 HDCP Flags:         b MAC address:        00:24:9B:00:00:0A  
+[000:25:797] [0x00002510(9488)] Info(DUT.cpp:151): Pipe out: Firmware Type:      RidgeDoc Release Level:      2 Version:            9.3.57 SVN Version:        88841            Build Date:         2017-09-08 Time:               11:31:44 Backup FW Version:  9.2.38  *** Encrypted configuration *** Name:               DisplayLink_Star Date:               Tue 04 Jul 2017  Min FW Version:     9.2.38  *** UPD Data *** USB Serial No:      00249BAABBFF HDCP Flags:         b MAC address:        00:24:9B:00:00:01  
+[000:28:187] [0x00002510(9488)] Info(DUT.cpp:151): Pipe out: 6016_DL6950-00.c00.c40 
+[000:29:390] [0x00002510(9488)] Info(DUT.cpp:151): Pipe out: 6016_DL6950-00.c00.c40 
+[000:30:562] [0x00002510(9488)] Info(DUT.cpp:151): Pipe out: 6016_DL6950-00.c00.c40 
+[000:31:734] [0x00002510(9488)] Info(DUT.cpp:151): Pipe out: 6016_DL6950-00.c00.c40 
+[000:32:953] [0x00002510(9488)] Info(DUT.cpp:151): Pipe out: 6016_DL6950-00.c00.c40 
+[000:34:797] [0x00002510(9488)] Info(DUT.cpp:151): Pipe out: 6016_DL6950-00.c00.c40 
+[000:34:828] [0x00002510(9488)] Info(DUT.cpp:732): Get id successfuly on 1
+[000:35:031] [0x00002510(9488)] Info(DUT.cpp:151): Pipe out: Firmware Type:      RidgeDoc Release Level:      2 Version:            9.3.57 SVN Version:        88841            Build Date:         2017-09-08 Time:               11:31:44 Backup FW Version:  9.2.38  *** Encrypted configuration *** Name:               DisplayLink_Star Date:               Tue 04 Jul 2017  Min FW Version:     9.2.38  *** UPD Data *** USB Serial No:      00249BAABBFF HDCP Flags:         b MAC address:        00:24:9B:00:00:01  
+[000:36:125] [0x00002510(9488)] Info(DUT.cpp:151): Pipe out: 6016_DL6950-00.c00.c40 
+[000:37:281] [0x00002510(9488)] Info(DUT.cpp:151): Pipe out: 6016_DL6950-00.c00.c40 
+[000:38:437] [0x00002510(9488)] Info(DUT.cpp:151): Pipe out: 6016_DL6950-00.c00.c40 
+[000:39:640] [0x00002510(9488)] Info(DUT.cpp:151): Pipe out: 6016_DL6950-00.c00.c40 
+[000:40:781] [0x00002510(9488)] Info(DUT.cpp:151): Pipe out: 6016_DL6950-00.c00.c40 

@@ -1,0 +1,1044 @@
+object USBHIDForm: TUSBHIDForm
+  Left = 498
+  Top = 266
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  ClientHeight = 212
+  ClientWidth = 563
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Icon.Data = {
+    0000010004001010100000000000280100004600000010100000000000006805
+    00006E0100002020100000000000E8020000D60600002020000000000000A808
+    0000BE0900002800000010000000200000000100040000000000C00000000000
+    0000000000000000000000000000FFFFFF0005F3FC000264FF000608DD008408
+    F200A5004600D4000000EAAB020014B71F0011640000052C56003A719000C0C0
+    C000808080004040400000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFCCFFFFFFFFFFFFFCCCCFFFCFFFFFFFFCCCCECCCCCFFCCCEC00CECCCCCFFCCC
+    EEEEEECC0CCFFCCCCEEECEE000FFFF00EECCCCCFFFFFFFEEEEC000CFFFFFFFCC
+    CCEE0EEFFFFFFFCC0CCEECCCFFFFFFF000FECCCCFFFFFFFFFFFFF00FFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF87FF87FF037F037C001C0010000
+    000000000000000000000000000000030003800F800F80078007800780078007
+    8007E207E207FF0FFF0FFFFFFFFF280000001000000020000000010008000000
+    00004001000000000000000000000000000000000000FFFFFF00CCFFFF0099FF
+    FF0066FFFF0033FFFF0000FFFF00FFCCFF00CCCCFF0099CCFF0066CCFF0033CC
+    FF0000CCFF00FF99FF00CC99FF009999FF006699FF003399FF000099FF00FF66
+    FF00CC66FF009966FF006666FF003366FF000066FF00FF33FF00CC33FF009933
+    FF006633FF003333FF000033FF00FF00FF00CC00FF009900FF006600FF003300
+    FF000000FF00FFFFCC00CCFFCC0099FFCC0066FFCC0033FFCC0000FFCC00FFCC
+    CC00CCCCCC0099CCCC0066CCCC0033CCCC0000CCCC00FF99CC00CC99CC009999
+    CC006699CC003399CC000099CC00FF66CC00CC66CC009966CC006666CC003366
+    CC000066CC00FF33CC00CC33CC009933CC006633CC003333CC000033CC00FF00
+    CC00CC00CC009900CC006600CC003300CC000000CC00FFFF9900CCFF990099FF
+    990066FF990033FF990000FF9900FFCC9900CCCC990099CC990066CC990033CC
+    990000CC9900FF999900CC99990099999900669999003399990000999900FF66
+    9900CC66990099669900666699003366990000669900FF339900CC3399009933
+    9900663399003333990000339900FF009900CC00990099009900660099003300
+    990000009900FFFF6600CCFF660099FF660066FF660033FF660000FF6600FFCC
+    6600CCCC660099CC660066CC660033CC660000CC6600FF996600CC9966009999
+    6600669966003399660000996600FF666600CC66660099666600666666003366
+    660000666600FF336600CC33660099336600663366003333660000336600FF00
+    6600CC00660099006600660066003300660000006600FFFF3300CCFF330099FF
+    330066FF330033FF330000FF3300FFCC3300CCCC330099CC330066CC330033CC
+    330000CC3300FF993300CC99330099993300669933003399330000993300FF66
+    3300CC66330099663300666633003366330000663300FF333300CC3333009933
+    3300663333003333330000333300FF003300CC00330099003300660033003300
+    330000003300FFFF0000CCFF000099FF000066FF000033FF000000FF0000FFCC
+    0000CCCC000099CC000066CC000033CC000000CC0000FF990000CC9900009999
+    0000669900003399000000990000FF660000CC66000099660000666600003366
+    000000660000FF330000CC33000099330000663300003333000000330000FF00
+    0000CC0000009900000066000000330000000000EE000000DD000000BB000000
+    AA0000008800000077000000550000004400000022000000110000EE000000DD
+    000000BB000000AA000000880000007700000055000000440000002200000011
+    0000EE000000DD000000BB000000AA0000008800000077000000550000004400
+    00002200000011000000EEEEEE00DDDDDD00BBBBBB00AAAAAA00888888007777
+    77005555550044444400222222001111110000000000FFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6F8FFFF
+    FFFFFFFFFFFFFFFFFFFFFFF6F6F8F8FFFFFFF8FFFFFFFFFFFFFFFFF6F6F8F8F8
+    F6F6F8F8F8FFFFF6F6F8F6F60000F8F8F6F6F8F8F8FFFFF6F6F8F8F8ACACF8F8
+    F6F600F8F8FFFFF6F6F8F8F8F6F6F8F8AC000000FFFFFFFF0000ACACF6F6F8F8
+    F8FFFFFFFFFFFFFFF6F6F8F8F6000000F8FFFFFFFFFFFFFFF6F6F8F8F8AC00AC
+    F8FFFFFFFFFFFFFFF6F600F8F8F6F6F6F8F8FFFFFFFFFFFFFF000000FFF6F6F6
+    F8F8FFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF87FF87FF037
+    F037C001C0010000000000000000000000000000000000030003800F800F8007
+    80078007800780078007E207E207FF0FFF0FFFFFFFFF28000000200000004000
+    000001000400000000008002000000000000000000000000000000000000FFFF
+    FF0005F3FC000264FF000608DD008408F200A5004600D4000000EAAB020014B7
+    1F0011640000052C56003A719000C0C0C000808080004040400000000000FFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCCFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFCCCCCCFFFFFFFFFFFFFFFFFFFFFFFFCCCCCCCCCCFFFFFFFFFFFFFFFFF
+    FFFFFCCCCCCCCCCFFFFFCCFFFFFFFFFFFFFFFCCCCCCCCCCEFFCCCCCCFFFFFFFF
+    FCCFFCCCCCCCCCCECCCCCCCCCCFFFFFCCCCCECCCC00CCCCECCCCCCCCCCFFFCCC
+    CCCCECC000000CCECCCCCCCCCCFFFCCCCCCCE0000000000ECCCCCCCCCCFFFCCC
+    CCCCCEE000000EEECCCC00CCCCFFFCCCCCCCCCCEE00EECCECC000000CCFFFCCC
+    C00CCCCECEECCCCE0000000000FFFCC000000CCECCCCCCCCEE000000FFFFF000
+    0000000ECCCCCCCCCCEF00FFFFFFFFF000000EEECCCC00CCCCFFFFFFFFFFFFFF
+    E00EECCECC000000CCFFFFFFFFFFFFFFCEECCCCE0000000000FFFFFFFFFFFFFF
+    CCCCCCCCEE000000EECFFFFFFFFFFFFFCCCCCCCCCCEE00EECCCCCFFFFFFFFFFF
+    CCCC00CCCCECEECCCCCCCFFFFFFFFFFFCC000000CCECCCCCCCCCCFFFFFFFFFFF
+    0000000000ECCCC00CCCCFFFFFFFFFFFFF000000FFECC000000CCFFFFFFFFFFF
+    FFFF00FFFFF0000000000FFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFF
+    FFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFF9FFFFFFE07FFFFF801FFFFF000F3FFF000C0FF9000003E000
+    0001800000010000000100000001000000010000000100000001000000030000
+    000F8000013FE00001FFE00001FFE000007FE000003FE000003FE000003FE000
+    003FF000003FFC0C003FFF3E007FFFFF81FFFFFFE7FFFFFFFFFFFFFFFFFF2800
+    0000200000004000000001000800000000008004000000000000000000000000
+    000000000000FFFFFF00CCFFFF0099FFFF0066FFFF0033FFFF0000FFFF00FFCC
+    FF00CCCCFF0099CCFF0066CCFF0033CCFF0000CCFF00FF99FF00CC99FF009999
+    FF006699FF003399FF000099FF00FF66FF00CC66FF009966FF006666FF003366
+    FF000066FF00FF33FF00CC33FF009933FF006633FF003333FF000033FF00FF00
+    FF00CC00FF009900FF006600FF003300FF000000FF00FFFFCC00CCFFCC0099FF
+    CC0066FFCC0033FFCC0000FFCC00FFCCCC00CCCCCC0099CCCC0066CCCC0033CC
+    CC0000CCCC00FF99CC00CC99CC009999CC006699CC003399CC000099CC00FF66
+    CC00CC66CC009966CC006666CC003366CC000066CC00FF33CC00CC33CC009933
+    CC006633CC003333CC000033CC00FF00CC00CC00CC009900CC006600CC003300
+    CC000000CC00FFFF9900CCFF990099FF990066FF990033FF990000FF9900FFCC
+    9900CCCC990099CC990066CC990033CC990000CC9900FF999900CC9999009999
+    9900669999003399990000999900FF669900CC66990099669900666699003366
+    990000669900FF339900CC33990099339900663399003333990000339900FF00
+    9900CC00990099009900660099003300990000009900FFFF6600CCFF660099FF
+    660066FF660033FF660000FF6600FFCC6600CCCC660099CC660066CC660033CC
+    660000CC6600FF996600CC99660099996600669966003399660000996600FF66
+    6600CC66660099666600666666003366660000666600FF336600CC3366009933
+    6600663366003333660000336600FF006600CC00660099006600660066003300
+    660000006600FFFF3300CCFF330099FF330066FF330033FF330000FF3300FFCC
+    3300CCCC330099CC330066CC330033CC330000CC3300FF993300CC9933009999
+    3300669933003399330000993300FF663300CC66330099663300666633003366
+    330000663300FF333300CC33330099333300663333003333330000333300FF00
+    3300CC00330099003300660033003300330000003300FFFF0000CCFF000099FF
+    000066FF000033FF000000FF0000FFCC0000CCCC000099CC000066CC000033CC
+    000000CC0000FF990000CC99000099990000669900003399000000990000FF66
+    0000CC66000099660000666600003366000000660000FF330000CC3300009933
+    0000663300003333000000330000FF000000CC00000099000000660000003300
+    00000000EE000000DD000000BB000000AA000000880000007700000055000000
+    4400000022000000110000EE000000DD000000BB000000AA0000008800000077
+    000000550000004400000022000000110000EE000000DD000000BB000000AA00
+    0000880000007700000055000000440000002200000011000000EEEEEE00DDDD
+    DD00BBBBBB00AAAAAA0088888800777777005555550044444400222222001111
+    110000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6F8FFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6F6F6F8F8F8FFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6F6F6F6F6F8F8F8F8F8FFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6F6F6F6F6F8F8F8F8F8FFFFFFFFFFF6F8
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6F6F6F6F6F8F8F8F8F8ACFFFFF6F6F6F8
+    F8F8FFFFFFFFFFFFFFFFFFF6F8FFFFF6F6F6F6F6F8F8F8F8F8ACF6F6F6F6F6F8
+    F8F8F8F8FFFFFFFFFFF6F6F6F8F8ACF6F6F6F60000F8F8F8F8ACF6F6F6F6F6F8
+    F8F8F8F8FFFFFFF6F6F6F6F6F8F8ACF6F6000000000000F8F8ACF6F6F6F6F6F8
+    F8F8F8F8FFFFFFF6F6F6F6F6F8F8AC00000000000000000000ACF6F6F6F6F6F8
+    F8F8F8F8FFFFFFF6F6F6F6F6F8F8F8ACAC000000000000ACACACF6F6F6F60000
+    F8F8F8F8FFFFFFF6F6F6F6F6F8F8F8F8F8ACAC0000ACACF8F8ACF6F600000000
+    0000F8F8FFFFFFF6F6F6F60000F8F8F8F8ACF6ACACF6F6F8F8AC000000000000
+    00000000FFFFFFF6F6000000000000F8F8ACF6F6F6F6F6F8F8F8ACAC00000000
+    0000FFFFFFFFFF00000000000000000000ACF6F6F6F6F6F8F8F8F8F8ACFF0000
+    FFFFFFFFFFFFFFFFFF000000000000ACACACF6F6F6F60000F8F8F8F8FFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFAC0000ACACF8F8ACF6F6000000000000F8F8FFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFF6ACACF6F6F8F8AC00000000000000000000FFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFF6F6F6F6F6F8F8F8ACAC000000000000ACACF8FFFFFF
+    FFFFFFFFFFFFFFFFFFFFF6F6F6F6F6F8F8F8F8F8ACAC0000ACACF8F8F8F8F8FF
+    FFFFFFFFFFFFFFFFFFFFF6F6F6F60000F8F8F8F8ACF6ACACF6F6F8F8F8F8F8FF
+    FFFFFFFFFFFFFFFFFFFFF6F6000000000000F8F8ACF6F6F6F6F6F8F8F8F8F8FF
+    FFFFFFFFFFFFFFFFFFFF00000000000000000000ACF6F6F6F60000F8F8F8F8FF
+    FFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFACF6F6000000000000F8F8FF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFF00000000000000000000FF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+    FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9FFFFFFE07FFFFF801FFFFF000F3FFF00
+    0C0FF9000003E000000180000001000000010000000100000001000000010000
+    0001000000030000000F8000013FE00001FFE00001FFE000007FE000003FE000
+    003FE000003FE000003FF000003FFC0C003FFF3E007FFFFF81FFFFFFE7FFFFFF
+    FFFFFFFFFFFF}
+  OldCreateOrder = False
+  Position = poScreenCenter
+  Visible = True
+  OnClose = FormClose
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object moMACRecord: TMemo
+    Left = 32
+    Top = 858
+    Width = 842
+    Height = 59
+    ImeName = #20013#25991' ('#32321#39636') - '#22072#34662#31859
+    ScrollBars = ssBoth
+    TabOrder = 0
+  end
+  object Wav_Name_Edit: TEdit
+    Left = 392
+    Top = 780
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = 'Wav_Name_Edit'
+  end
+  object cb_myOutDevice: TComboBox
+    Left = 90
+    Top = 751
+    Width = 145
+    Height = 23
+    Enabled = False
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    Text = 'USB Advanced'
+  end
+  object cb_myInDevice: TComboBox
+    Left = 90
+    Top = 780
+    Width = 145
+    Height = 23
+    Enabled = False
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    Text = 'USB'
+  end
+  object cbOutputDevice: TComboBox
+    Left = 241
+    Top = 751
+    Width = 145
+    Height = 23
+    Enabled = False
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    Text = 'cbOutputDevice'
+  end
+  object cbInputDevice: TComboBox
+    Left = 241
+    Top = 780
+    Width = 145
+    Height = 23
+    Enabled = False
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+    Text = 'ComboBox1'
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 212
+    Width = 563
+    Height = 448
+    Align = alTop
+    TabOrder = 6
+    object Panel1: TPanel
+      Left = 0
+      Top = 1
+      Width = 562
+      Height = 446
+      Align = alRight
+      TabOrder = 0
+      object lblStatus: TLabel
+        Left = 1
+        Top = 408
+        Width = 560
+        Height = 37
+        Align = alBottom
+        Alignment = taCenter
+        AutoSize = False
+        Caption = #31561#20505#20013
+        Color = clSkyBlue
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -32
+        Font.Name = 'MS Sans Serif'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        Transparent = False
+        ExplicitLeft = 9
+        ExplicitTop = 447
+        ExplicitWidth = 376
+      end
+      object memoMsg: TMemo
+        Left = 1
+        Top = 1
+        Width = 560
+        Height = 407
+        Align = alClient
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -24
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ImeName = #20013#25991' ('#32321#39636') - '#22072#34662#31859
+        ParentFont = False
+        ScrollBars = ssBoth
+        TabOrder = 0
+      end
+    end
+    object Panel5: TPanel
+      Left = 1
+      Top = 1
+      Width = 0
+      Height = 446
+      Align = alClient
+      TabOrder = 1
+      object gbBurnSetting: TGroupBox
+        Left = 1
+        Top = 1
+        Width = 1
+        Height = 180
+        Align = alTop
+        Caption = #29138#37636#35373#23450
+        Enabled = False
+        TabOrder = 0
+        object Label2: TLabel
+          Left = 9
+          Top = 112
+          Width = 99
+          Height = 20
+          Caption = 'MAC'#21069#32622#30908'    '
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+        end
+        object Label14: TLabel
+          Left = 9
+          Top = 79
+          Width = 80
+          Height = 20
+          Caption = #24207#34399#31684#22285'    '
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+        end
+        object Label15: TLabel
+          Left = 9
+          Top = 44
+          Width = 84
+          Height = 20
+          Caption = #29138#37636#25976#37327'     '
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+        end
+        object Label17: TLabel
+          Left = 9
+          Top = 146
+          Width = 83
+          Height = 20
+          Caption = 'MAC'#23614#30908'    '
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+        end
+        object Label20: TLabel
+          Left = 218
+          Top = 85
+          Width = 9
+          Height = 20
+          Caption = '~'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+        end
+        object Label21: TLabel
+          Left = 218
+          Top = 153
+          Width = 9
+          Height = 20
+          Caption = '~'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+        end
+        object mskedtEndSn: TMaskEdit
+          Left = 233
+          Top = 77
+          Width = 86
+          Height = 28
+          Enabled = False
+          EditMask = '00000000;0;_'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ImeName = #20013#25991' ('#32321#39636') - '#22072#34662#31859
+          MaxLength = 8
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 2
+          Text = '00000001'
+        end
+        object ckbAutoIncrease: TCheckBox
+          Left = 222
+          Top = 22
+          Width = 80
+          Height = 17
+          TabStop = False
+          Caption = #33258#21205#36339#34399
+          Checked = True
+          State = cbChecked
+          TabOrder = 3
+        end
+        object mskedtMacPre: TMaskEdit
+          Left = 125
+          Top = 109
+          Width = 84
+          Height = 28
+          EditMask = '>AA:AA:AA;0;_'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ImeName = #20013#25991' ('#32321#39636') - '#22072#34662#31859
+          MaxLength = 8
+          ParentFont = False
+          TabOrder = 4
+          Text = '00249B'
+          OnChange = mskedtMacPreChange
+        end
+        object mskedtEndMac: TMaskEdit
+          Left = 233
+          Top = 143
+          Width = 85
+          Height = 28
+          Enabled = False
+          EditMask = '>AA:AA:AA;0;_'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ImeName = #20013#25991' ('#32321#39636') - '#22072#34662#31859
+          MaxLength = 8
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 5
+          Text = '000001'
+        end
+        object ckbBurnSN: TCheckBox
+          Left = 8
+          Top = 22
+          Width = 80
+          Height = 17
+          TabStop = False
+          Caption = #29138#37636'SN'
+          Checked = True
+          State = cbChecked
+          TabOrder = 0
+        end
+        object edtBurnCount: TEdit
+          Left = 125
+          Top = 43
+          Width = 87
+          Height = 28
+          AutoSize = False
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ImeName = #20013#25991' ('#32321#39636') - '#22072#34662#31859
+          MaxLength = 8
+          NumbersOnly = True
+          ParentFont = False
+          TabOrder = 1
+          Text = '1'
+          OnChange = edtBurnCountChange
+        end
+        object mskedtBeginSn: TMaskEdit
+          Left = 125
+          Top = 77
+          Width = 86
+          Height = 28
+          EditMask = '00000000;0;_'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ImeName = #20013#25991' ('#32321#39636') - '#22072#34662#31859
+          MaxLength = 8
+          ParentFont = False
+          TabOrder = 6
+          Text = '00000001'
+          OnChange = mskedtBeginSnChange
+        end
+        object mskedtBeginMac: TMaskEdit
+          Left = 125
+          Top = 143
+          Width = 83
+          Height = 28
+          EditMask = '>AA:AA:AA;0;_'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ImeName = #20013#25991' ('#32321#39636') - '#22072#34662#31859
+          MaxLength = 8
+          ParentFont = False
+          TabOrder = 7
+          Text = '000001'
+          OnChange = mskedtBeginMacChange
+        end
+        object ckbBurnVerify: TCheckBox
+          Left = 162
+          Top = 22
+          Width = 54
+          Height = 17
+          TabStop = False
+          Caption = #39511#35657
+          Checked = True
+          State = cbChecked
+          TabOrder = 8
+        end
+        object ckbBurnMAC: TCheckBox
+          Left = 81
+          Top = 22
+          Width = 80
+          Height = 17
+          TabStop = False
+          Caption = #29138#37636'MAC'
+          Checked = True
+          State = cbChecked
+          TabOrder = 9
+        end
+      end
+      object gbBurnContent: TGroupBox
+        Left = 1
+        Top = 181
+        Width = 1
+        Height = 83
+        Align = alTop
+        Caption = #29138#37636#20839#23481
+        Enabled = False
+        TabOrder = 1
+        object Label1: TLabel
+          Left = 9
+          Top = 23
+          Width = 56
+          Height = 20
+          Caption = #24207#34399'      '
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+        end
+        object Label16: TLabel
+          Left = 9
+          Top = 55
+          Width = 51
+          Height = 20
+          Caption = 'MAC    '
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+        end
+        object Label22: TLabel
+          Left = 215
+          Top = 55
+          Width = 9
+          Height = 20
+          Caption = '~'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+        end
+        object mskedtBurnSn: TMaskEdit
+          Left = 127
+          Top = 13
+          Width = 78
+          Height = 28
+          EditMask = '00000000;0;_'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ImeName = #20013#25991' ('#32321#39636') - '#22072#34662#31859
+          MaxLength = 8
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 0
+          Text = '00000001'
+        end
+        object mskedBurntMacPre: TMaskEdit
+          Left = 127
+          Top = 47
+          Width = 78
+          Height = 28
+          EditMask = '>AA:AA:AA;0;_'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ImeName = #20013#25991' ('#32321#39636') - '#22072#34662#31859
+          MaxLength = 8
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 1
+          Text = '00249B'
+          OnExit = mskedBurntMacPreExit
+        end
+        object mskedtBurnMac: TMaskEdit
+          Left = 233
+          Top = 47
+          Width = 81
+          Height = 28
+          EditMask = '>AA:AA:AA;0;_'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ImeName = #20013#25991' ('#32321#39636') - '#22072#34662#31859
+          MaxLength = 8
+          ParentFont = False
+          ReadOnly = True
+          TabOrder = 2
+          Text = '000001'
+          OnExit = mskedtBurnMacExit
+        end
+      end
+      object gbUSBHUB: TGroupBox
+        Left = 1
+        Top = 264
+        Width = 1
+        Height = 86
+        Align = alTop
+        Caption = 'DisplayLink'#38860#39636#27171#26412
+        Enabled = False
+        TabOrder = 2
+        object lbNumberOfChip: TLabel
+          Left = 16
+          Top = 23
+          Width = 116
+          Height = 16
+          Caption = 'Number of Chip'
+          Font.Charset = CHINESEBIG5_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = #26032#32048#26126#39636
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+        object cmbNumOfChip: TComboBox
+          Left = 144
+          Top = 22
+          Width = 41
+          Height = 21
+          Style = csDropDownList
+          ImeName = #20013#25991' ('#32321#39636') - '#22072#34662#31859
+          ItemIndex = 0
+          TabOrder = 0
+          Text = '0'
+          Items.Strings = (
+            '0'
+            '1'
+            '2')
+        end
+        object btnGetInfo: TButton
+          Left = 16
+          Top = 49
+          Width = 301
+          Height = 25
+          Caption = #26597#30475#35037#32622#36039#35338
+          TabOrder = 1
+          OnClick = btnGetInfoClick
+        end
+      end
+      object gbTest: TGroupBox
+        Left = 1
+        Top = 350
+        Width = 1
+        Height = 95
+        Align = alClient
+        Enabled = False
+        TabOrder = 3
+        object ckbCheckFW: TCheckBox
+          Left = 2
+          Top = 15
+          Width = 3
+          Height = 17
+          TabStop = False
+          Align = alTop
+          Caption = 'FW'#27604#23565
+          Checked = True
+          State = cbChecked
+          TabOrder = 0
+        end
+        object Panel6: TPanel
+          Left = 2
+          Top = 32
+          Width = 3
+          Height = 61
+          Align = alClient
+          BevelOuter = bvNone
+          TabOrder = 1
+          object Panel7: TPanel
+            Left = 0
+            Top = 30
+            Width = 3
+            Height = 31
+            Align = alClient
+            BevelOuter = bvNone
+            TabOrder = 0
+            object Panel10: TPanel
+              Left = 0
+              Top = 0
+              Width = 130
+              Height = 31
+              Align = alLeft
+              Caption = 'Min FW'
+              Color = clSkyBlue
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -19
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              ParentBackground = False
+              ParentFont = False
+              TabOrder = 0
+            end
+            object edtMinFW: TEdit
+              Left = 130
+              Top = 0
+              Width = 3
+              Height = 31
+              Align = alClient
+              Alignment = taCenter
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -23
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              ParentFont = False
+              TabOrder = 1
+              ExplicitHeight = 34
+            end
+          end
+          object Panel8: TPanel
+            Left = 0
+            Top = 0
+            Width = 3
+            Height = 30
+            Align = alTop
+            BevelOuter = bvNone
+            TabOrder = 1
+            object Panel9: TPanel
+              Left = 0
+              Top = 0
+              Width = 130
+              Height = 30
+              Align = alLeft
+              Caption = 'Backup FW'
+              Color = clSkyBlue
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -19
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              ParentBackground = False
+              ParentFont = False
+              TabOrder = 0
+            end
+            object edtBackupFW: TEdit
+              Left = 130
+              Top = 0
+              Width = 3
+              Height = 30
+              Align = alClient
+              Alignment = taCenter
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Height = -23
+              Font.Name = 'Times New Roman'
+              Font.Style = []
+              ParentFont = False
+              TabOrder = 1
+              ExplicitHeight = 34
+            end
+          end
+        end
+      end
+    end
+  end
+  object Panel3: TPanel
+    Left = 0
+    Top = 0
+    Width = 563
+    Height = 201
+    Align = alTop
+    Color = clBtnHighlight
+    ParentBackground = False
+    TabOrder = 7
+    object Panel4: TPanel
+      Left = 1
+      Top = 1
+      Width = 561
+      Height = 114
+      Align = alClient
+      TabOrder = 0
+      object ProgressBar: TGauge
+        Left = 1
+        Top = 1
+        Width = 559
+        Height = 71
+        Align = alClient
+        ForeColor = clTeal
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clHighlight
+        Font.Height = -27
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+        Progress = 0
+        ExplicitLeft = 3
+        ExplicitTop = -46
+      end
+      object Panel17: TPanel
+        Left = 1
+        Top = 72
+        Width = 559
+        Height = 41
+        Align = alBottom
+        TabOrder = 0
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        object plMsg: TPanel
+          Left = 93
+          Top = 1
+          Width = 465
+          Height = 39
+          Align = alClient
+          BevelOuter = bvNone
+          Caption = 'Wait...'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlue
+          Font.Height = -21
+          Font.Name = #27161#26999#39636
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 0
+          ExplicitLeft = 9
+          ExplicitTop = 4
+          ExplicitWidth = 557
+          ExplicitHeight = 35
+        end
+        object ckbFakeMAC: TCheckBox
+          Left = 1
+          Top = 1
+          Width = 92
+          Height = 39
+          Align = alLeft
+          Caption = 'FakeMAC'
+          Color = clBtnHighlight
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -17
+          Font.Name = 'Times New Roman'
+          Font.Style = []
+          ParentColor = False
+          ParentFont = False
+          TabOrder = 1
+        end
+      end
+    end
+    object Panel11: TPanel
+      Left = 1
+      Top = 115
+      Width = 561
+      Height = 85
+      Align = alBottom
+      TabOrder = 1
+      object btnAutoTest: TButton
+        Left = 424
+        Top = 1
+        Width = 136
+        Height = 83
+        Align = alRight
+        Caption = 'Start'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -53
+        Font.Name = 'Times New Roman'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 0
+        OnClick = btnAutoTestClick
+      end
+      object Panel16: TPanel
+        Left = 1
+        Top = 1
+        Width = 423
+        Height = 83
+        Align = alClient
+        Caption = 'Panel16'
+        TabOrder = 1
+        object Panel13: TPanel
+          Left = 1
+          Top = 1
+          Width = 421
+          Height = 42
+          Align = alTop
+          TabOrder = 0
+          object Panel14: TPanel
+            Left = 1
+            Top = 1
+            Width = 185
+            Height = 40
+            Align = alLeft
+            Caption = 'Backup Firmware'
+            Color = clSkyBlue
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -24
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            ParentBackground = False
+            ParentFont = False
+            TabOrder = 0
+          end
+          object plBackupFW: TPanel
+            Left = 186
+            Top = 1
+            Width = 234
+            Height = 40
+            Align = alClient
+            BevelOuter = bvNone
+            Color = clWhite
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -24
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            ParentBackground = False
+            ParentFont = False
+            TabOrder = 1
+          end
+        end
+        object Panel12: TPanel
+          Left = 1
+          Top = 43
+          Width = 421
+          Height = 39
+          Align = alClient
+          TabOrder = 1
+          object Panel15: TPanel
+            Left = 1
+            Top = 1
+            Width = 185
+            Height = 37
+            Align = alLeft
+            Caption = 'Min Firmware'
+            Color = clSkyBlue
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -24
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            ParentBackground = False
+            ParentFont = False
+            TabOrder = 0
+          end
+          object plMinFW: TPanel
+            Left = 186
+            Top = 1
+            Width = 234
+            Height = 37
+            Align = alClient
+            BevelOuter = bvNone
+            Color = clWhite
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -24
+            Font.Name = 'Times New Roman'
+            Font.Style = []
+            ParentBackground = False
+            ParentFont = False
+            TabOrder = 1
+          end
+        end
+      end
+    end
+  end
+  object plSwitch: TPanel
+    Left = 0
+    Top = 201
+    Width = 563
+    Height = 11
+    Align = alTop
+    Caption = 'V'
+    Color = clGradientActiveCaption
+    ParentBackground = False
+    TabOrder = 8
+    OnClick = plSwitchClick
+  end
+  object Timer2: TTimer
+    Enabled = False
+    Interval = 500
+    OnTimer = Timer2Timer
+    Left = 731
+    Top = 498
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 528
+  end
+  object PopupMenu1: TPopupMenu
+    Left = 528
+    Top = 56
+  end
+end

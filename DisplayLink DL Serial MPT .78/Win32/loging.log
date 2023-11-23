@@ -1,0 +1,4 @@
+[000:20:328] [0x00001a80(6784)] Info(DUT.cpp:738): Try get id times...12
+[000:20:343] [0x00001a80(6784)] Info(DUT.cpp:739): Nunber of chip:1 Count of id...0
+[000:44:750] [0x00001a80(6784)] Info(DUT.cpp:738): Try get id times...12
+[000:44:781] [0x00001a80(6784)] Info(DUT.cpp:739): Nunber of chip:1 Count of id...0

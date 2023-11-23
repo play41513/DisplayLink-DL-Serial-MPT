@@ -1,0 +1,2 @@
+ฝdจา
+dl_mfg_test Config MEM1 MEM2

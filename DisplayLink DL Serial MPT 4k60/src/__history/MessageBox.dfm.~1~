@@ -1,0 +1,67 @@
+object frmMsg: TfrmMsg
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  ClientHeight = 172
+  ClientWidth = 449
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel4: TPanel
+    Left = 0
+    Top = 0
+    Width = 449
+    Height = 172
+    Align = alClient
+    TabOrder = 0
+    ExplicitLeft = -285
+    ExplicitTop = 1
+    ExplicitWidth = 732
+    ExplicitHeight = 47
+    object plPASS_OK: TPanel
+      Left = 1
+      Top = 1
+      Width = 224
+      Height = 170
+      Align = alLeft
+      Caption = 'PASS'
+      Color = clLime
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -67
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      ParentBackground = False
+      ParentFont = False
+      TabOrder = 0
+      OnClick = plPASS_OKClick
+      ExplicitLeft = -5
+    end
+    object Panel1: TPanel
+      Left = 225
+      Top = 1
+      Width = 224
+      Height = 170
+      Align = alLeft
+      Caption = 'FAIL'
+      Color = clRed
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -67
+      Font.Name = 'Times New Roman'
+      Font.Style = []
+      ParentBackground = False
+      ParentFont = False
+      TabOrder = 1
+      OnClick = Panel1Click
+      ExplicitLeft = 473
+    end
+  end
+end

@@ -1,0 +1,16 @@
+dl_mfg_test --dev list
+dl_mfg_test mtt
+dl_mfg_test reboot
+dl_mfg_test post
+dl_mfg_test ddr data
+dl_mfg_test ddr address 127
+dl_mfg_test ddr checker
+dl_mfg_test ddr byte
+dl_mfg_test eth loop
+dl_mfg_test video bitmap .\\RGB.bmp -m 1920 1080 60
+dl_mfg_test video bitmap .\\RGB4K.bmp -m 1920 1080 60 --head 0
+dl_mfg_test video bitmap .\\RGB4K.bmp -m 1920 1080 60 --head 1
+dl_mfg_test video --detailedmode 4400 3840 176 88 1 2250 2160 8 10 1 300000
+dl_mfg_test video --detailedmode 4400 3840 176 88 1 2250 2160 8 10 1 600000
+dl_mfg_test video --detailedmode 4400 3840 296 176 1 2250 2160 72 8 1 594000 --head 0
+dl_mfg_test video --detailedmode 4400 3840 296 176 1 2250 2160 72 8 1 594000 --head 1

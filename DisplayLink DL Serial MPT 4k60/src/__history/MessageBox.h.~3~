@@ -1,0 +1,60 @@
+//---------------------------------------------------------------------------
+
+#ifndef MessageBoxH
+#define MessageBoxH
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+#include <Buttons.hpp>
+#include <ExtCtrls.hpp>
+//---------------------------------------------------------------------------
+class TfrmMsg : public TForm
+{
+__published:	// IDE-managed Components
+	TPanel *Panel4;
+	TPanel *plPASS_OK;
+	TPanel *Panel1;
+	TPanel *Panel2;
+	TPanel *Panel3;
+	TPanel *Panel5;
+	TPanel *Panel6;
+	TPanel *Panel7;
+	TPanel *ckbError1;
+	TPanel *Panel9;
+	TPanel *Panel10;
+	TPanel *Panel11;
+	TPanel *Panel12;
+	TPanel *ckbError2;
+	TPanel *ckbError3;
+	TPanel *ckbError4;
+	TPanel *ckbError5;
+	TPanel *ckbError6;
+	TPanel *ckbError7;
+	TPanel *ckbError9;
+	TPanel *Panel20;
+	TPanel *Panel28;
+	TPanel *Panel21;
+	TPanel *Panel22;
+	TPanel *Panel23;
+	TPanel *Panel24;
+	TPanel *Panel25;
+	TPanel *Panel26;
+	TPanel *Panel27;
+	TPanel *Panel29;
+	TPanel *ckbError8;
+	TPanel *Panel31;
+	void __fastcall plPASS_OKClick(TObject *Sender);
+	void __fastcall Panel1Click(TObject *Sender);
+	void __fastcall Panel28Click(TObject *Sender);
+	void __fastcall ckbError1Click(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	AnsiString ErrorCode;
+	__fastcall TfrmMsg(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TfrmMsg *frmMsg;
+//---------------------------------------------------------------------------
+#endif
